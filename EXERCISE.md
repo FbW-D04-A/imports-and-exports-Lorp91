@@ -1,11 +1,11 @@
 # Import and export training
 
-## TASK - Splits the code into several files: 
+## TASK - Splits the code into several files
 
-#### Use all the different import and export methods in the list below.
+### Use all the different import and export methods in the list below
 
-- namespace 
-- named 
+- namespace
+- named
 - default and named
 - default
-- side-effect 
+- side-effect

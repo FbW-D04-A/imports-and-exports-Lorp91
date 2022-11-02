@@ -1,48 +1,42 @@
-### Imports and Exports
+# Imports and Exports
 
-- Default exports vs. named exports: 
+- Default exports vs. named exports:
   `export default`, `export {<var1>, <var2> [, ...]}`
-- Namespacing imports: 
+- Namespacing imports:
   `import <namespace> from <path>`, `import * as <namespace> from <path>`
-- Destructuring imports: `import { <var1>, <var2 [, ...]} from `<path>`
+- Destructuring imports: `import { <var1>, <var2 [, ...]} from <path>`
 
+## Exercise
 
-## Exercise:
+Browser-modules-imports-exports [https://classroom.github.com/a/9O7KNxyA](https://classroom.github.com/a/9O7KNxyA)
 
-Browser-modules-imports-exports https://classroom.github.com/a/9O7KNxyA
+Exports without a default tag are Named exports. Exports with the default tag are Default exports.
+Using one over the other can have effects on your code readability, file structure, and component organization.
 
+## Named Exports
 
-Exports without a default tag are Named exports. Exports with the default tag are Default exports. 
-Using one over the other can have effects on your code readability, file structure, and component organization. 
+Can export multiple values
+MUST use the exported name when importing
 
+## Default Exports
 
- ## Named Exports
+Export a single value
+Can use any name when importing
 
- Can export multiple values
- MUST use the exported name when importing
+[https://betterprogramming.pub/understanding-the-difference-between-named-and-default-exports-in-react-2d253ca9fc22](https://betterprogramming.pub/understanding-the-difference-between-named-and-default-exports-in-react-2d253ca9fc22)
 
- ## Default Exports
+namespace imports [https://medium.com/unsplash/named-namespace-imports-7345212bbffb](https://medium.com/unsplash/named-namespace-imports-7345212bbffb)
 
- Export a single value
- Can use any name when importing
+ALL IMPORTS: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import)
 
-https://betterprogramming.pub/understanding-the-difference-between-named-and-default-exports-in-react-2d253ca9fc22
+### Splitting the code in SPA applications is very important for
 
+- to prevent conflicts with GIT when working in TEAM
 
-namespace imports https://medium.com/unsplash/named-namespace-imports-7345212bbffb
+- to have the code more orderly;
 
-ALL IMPORTS: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import
+- to facilitate debugging;
 
+- to improve performance;
 
-
-### Splitting the code in SPA applications is very important for:
-
- - to prevent conflicts with GIT when working in TEAM
-
- - to have the code more orderly;
-
- - to facilitate debugging;
-
- - to improve performance;
-
- - to be able to reuse parts of the code and avoid rewriting the same code several times.
+- to be able to reuse parts of the code and avoid rewriting the same code several times.
